@@ -1,0 +1,413 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+font audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+F
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.section {
+    height: 100%;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #000;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.img {
+    width: 180px;
+    height: auto;
+}
+
+.collapse {
+    padding-top: 36px;
+    flex-grow: 0;
+}
+
+.nav-link {
+    color: rgb(250, 250, 250) !important;
+    font-size: 18px;
+    font-family: NotoSans-Light !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+
+.search {
+    border-radius: 3px black;
+}
+
+.background {
+    background-image: url(Background2.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.title h1 {
+    font-weight: 900;
+    color: #ffffff;
+    text-align: left;
+    font-size: 55px;
+    line-height: 1.4;
+}
+
+.title h2 {
+    font-weight: 900;
+    color: #ffee00;
+    text-align: left;
+    font-size: 55px;
+    line-height: 1.4;
+}
+
+.title1 {
+    font-weight: 1000;
+    color: #fbff00;
+    text-align: left;
+    font-size: 55px;
+    line-height: 1.4;
+    height: 75%;
+    position: absolute;
+    padding-left: 80px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.para {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.commontop {
+    padding-top: 130px;
+}
+
+.com {
+    padding-left: 60px;
+    padding-top: 0px;
+    margin-top: 60px;
+}
+
+.lady {
+    width: 100%;
+}
+
+.date {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 76px;
+    left: 0px;
+    background: #fff;
+    width: 120px;
+    height: 120px;
+}
+
+.clm {
+    position: relative;
+}
+
+.date p {
+    font-size: 38px;
+    line-height: 1;
+    font-weight: bold;
+}
+.date span {
+    font-size: 38px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+@media (min-width: 360px) and (max-width: 1023px) {
+
+    /* For tablets: */
+    .container {
+        width: 100%;
+    }
+
+    .background {
+        background-image: url(Background2.jpg);
+        height: 91vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        background: #421c8b;
+    }
+
+    .img {
+        width: 54vw;
+        height: auto;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    .collapse {
+        background-color: #000;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .container-fluid {
+        color: rgb(0, 0, 0);
+        background-color: #000;
+        position: inherit;
+        z-index: 999;
+        padding-top: 00px;
+    }
+
+    .nav-link {
+        color: rgb(255, 255, 255) !important;
+        font-size: 22px;
+        font-family: NotoSans-Light !important;
+        padding-left: 18px !important;
+        padding-right: 23px !important;
+        float: right;
+    }
+
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: rgb(255 255 255 / 55%);
+        background-color: #ffffff;
+        border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+
+    .navbar-toggler:hover {
+        text-decoration: none;
+        background: aliceblue;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .title h1 {
+        color: #ffffff;
+        font-size: 44px;
+        line-height: 1.4;
+        height: 22%;
+        align-items: center;
+    }
+
+    .title h2 {
+        color: #ffee00;
+        font-size: 44px;
+        height: 30%;
+    }
+
+    .lady {
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .date {
+        position: absolute;
+        bottom: 10px;
+        background: #fff;
+        width: 120px;
+        height: 120px;
+    }
+
+    .para {
+        color: #FFF;
+        font-size: 22px;
+        height: 50%;
+    }
+
+    .date {
+        width: 80px;
+        height: 80px;
+    }
+
+    .date {
+        position: absolute;
+        bottom: 120px;
+        left: 10px;
+    }
+    .date p {
+        font-size: 26px;
+        line-height: 1;
+        font-weight: bold;
+    }
+    .may {
+        font-size: 27px;
+        align-items: center;
+        text-align: center;
+        padding-top: 4px;
+        line-height: 1.2;
+    }
+    .date span {
+        font-size: 28px;
+        line-height: 1;
+        font-weight: 500;
+    }
+
+}
