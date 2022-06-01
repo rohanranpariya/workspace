@@ -119,18 +119,6 @@ p {
     background-color: #00c0ad;
 }
 
-
-.section .touch:hover {
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 30px;
-    color: #00c0ad;
-    padding: 6px 31px;
-    text-decoration: none;
-    border-radius: 32px;
-    background-color: #000;
-}
-
 .marketing {
     position: relative;
 }
@@ -152,7 +140,7 @@ p {
 @media (min-width: 320px) and (max-width: 768px) {
 
     .logo {
-        width: 150px;
+        width: 140px;
     }
 
     header {
@@ -204,6 +192,16 @@ p {
         float: none;
     }
 
+    .section a {
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 0px;
+        color: rgb(0, 0, 0);
+        padding: 6px 31px;
+        text-decoration: none;
+        border-radius: 32px;
+    }
+
     .section .touch {
         font-size: 18px;
         margin-left: 74px;
@@ -219,16 +217,25 @@ p {
         width: 96%;
         position: absolute;
     }
-    .section ul li a{
+
+    .section ul li a {
         float: right;
         font-size: 17px;
         font-weight: 700;
         padding: 6px 31px;
     }
-    .form-inline{float: right;}
+
+    .form-inline {
+        float: right;
+    }
+
     .collapse {
         padding-top: 0px;
         flex-grow: 0;
     }
-    .navbar-brand{margin-right: 0px !important;}
+
+    .navbar-brand {
+        margin-right: 0px !important;
+    }
+    .navbar{width: 100%;}
 }
