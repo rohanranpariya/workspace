@@ -192,7 +192,7 @@ header {
 }
 
 .background {
-    background-image: url(Background2.jpg);
+    background-image: url(background.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
